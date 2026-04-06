@@ -1,72 +1,66 @@
 Bus Ticket Booking System (BTBS)
 
+Beginner DBMS project using SQL
 
+--------------------------------------------------
 
 About:
+This project is a simple implementation of a Bus Ticket Booking System using SQL. 
+It manages buses, passengers, staff, routes, and bookings in a structured database.
 
-This is a simple DBMS project created using SQL. It manages buses, passengers, staff, routes, and bookings.
-
-
+--------------------------------------------------
 
 Features:
+- Stores bus details
+- Manages passenger information
+- Handles ticket booking
+- Tracks routes and schedules
 
-\- Stores bus details
-
-\- Manages passenger information
-
-\- Handles ticket booking
-
-\- Tracks routes and schedules
-
-
+--------------------------------------------------
 
 Tables Used:
+- Bus
+- Staff
+- Passenger
+- Route_Schedule
+- Booking
 
-\- Bus
+--------------------------------------------------
 
-\- Staff
+Project Files:
+- btbs.sql → contains all SQL code (tables + data + queries)
 
-\- Passenger
+--------------------------------------------------
 
-\- Route\_Schedule
+Sample Queries:
+SELECT * FROM Bus;
 
-\- Booking
+SELECT * FROM Passenger WHERE City = 'Delhi';
 
+SELECT * FROM Booking;
 
-
-SQL File:
-
-All SQL code is available in the file:
-
-btbs.sql
-
-
+--------------------------------------------------
 
 How to Run:
+1. Open MySQL
+2. Run:
+   SOURCE btbs.sql;
+3. Execute queries
 
-1\. Open MySQL
+--------------------------------------------------
 
-2\. Run the command:
+Screenshots:
+(Add your screenshots folder later)
 
-&#x20;  SOURCE btbs.sql;
-
-3\. Execute queries
-
-
+--------------------------------------------------
 
 What I Learned:
+- Basics of SQL
+- Table creation
+- Data insertion
+- Writing queries
 
-\- Basics of SQL
-
-\- Table creation
-
-\- Data insertion
-
-\- Writing queries
-
-
+--------------------------------------------------
 
 Note:
-
-This project was created for learning and practice.
-
+This project was created for practice and learning DBMS concepts.
