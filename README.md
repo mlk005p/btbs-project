@@ -29,6 +29,7 @@ Tables Used:
 
 Project Files:
 - btbs.sql → contains all SQL code (tables + data + queries)
+- screenshots/ → contains output images
 
 --------------------------------------------------
 
@@ -50,7 +51,11 @@ How to Run:
 --------------------------------------------------
 
 Screenshots:
-(Add your screenshots folder later)
+
+![Create Tables](screenshots/create_tables.png)
+![Insert Bus Data](screenshots/insert_bus_data.png)
+![Insert Passenger Data](screenshots/insert_passenger_data.png)
+![Queries Output](screenshots/queries_output.png)
 
 --------------------------------------------------
 
@@ -63,4 +68,4 @@ What I Learned:
 --------------------------------------------------
 
 Note:
-This project was created for practice and learning DBMS concepts.
+This project was created for learning and practice.
