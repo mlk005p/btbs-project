@@ -30,6 +30,7 @@ Tables Used:
 Project Files:
 - btbs.sql → contains all SQL code (tables + data + queries)
 - screenshots/ → contains output images
+- BTBS_Report.pdf → full project report
 
 --------------------------------------------------
 
@@ -52,10 +53,16 @@ How to Run:
 
 Screenshots:
 
+![Create Database](screenshots/create_database.png)
 ![Create Tables](screenshots/create_tables.png)
 ![Insert Bus Data](screenshots/insert_bus_data.png)
 ![Insert Passenger Data](screenshots/insert_passenger_data.png)
 ![Queries Output](screenshots/queries_output.png)
+
+--------------------------------------------------
+
+Project Report:
+[View Report](BTBS_Report.pdf)
 
 --------------------------------------------------
 
